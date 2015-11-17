@@ -1,35 +1,70 @@
 body {
   padding: 0;
   margin: 0;
-  /*background-color: #111111;*/
+  background-color: #0a0a0a;
+  font-family: verdana;
 }
 
-#navigationBar {
-  top: 0;
-  border-radius: 0;
-  background-color: #111111;
-  color: #eeeeee;
-  height: 10vh;
-  margin-bottom: 10vh;
-  width: 100%;
-  position: fixed;
+/*Content div*/
+.contentDiv {
+  min-height: 100vh;
+  padding-top: 75px;
+  color: #efefef;
+}
+
+.contentDivTitle {
   text-align: center;
-  font-size: 5vh;
 }
 
-#contentContainer {
-  background-color: #eeeeee;
-  height: 100vh;
+.contentDivTitleUnderline {
+  height: .5vh;
+  width: 50%;
+  background-color: #efefef;
+  margin: 0 auto;
+  margin-bottom: 5vh;
 }
 
-#contactBar {
-  top: 90vh;
-  border-radius: 0;
-  background-color: #111111;
-  color: #eeeeee;
-  height: 10vh;
+/*About div*/
+#aboutDiv {
+  background-color: #0a0a0a;
+}
+
+#aboutDivUnderline {
+  background-color: #00cc66;
   width: 100%;
-  position: fixed;
+}
+
+#aboutDivImage {
+  background-image: url('../img/profileImage000.png');
+  background-size: 50vh;
+  height: 50vh;
+  width: 50vh;
+  border-radius: 15%;
+}
+
+#aboutDivRight {
   text-align: center;
-  font-size: 5vh;
+  background-color: #0a0a0a;
+}
+
+#aboutGlyphiconFill {
+  height: 20vh;
+}
+
+#aboutDivRight span {
+  font-size: 8vh;
+}
+
+#aboutDivRight span:hover {
+  color: #00cc66;
+}
+
+#aboutDivRight .rowSplit {
+  height: 10vh;
+  clear: both;
+}
+
+/*Resume div*/
+#resumeDiv {
+  background-color: #666666;
 }
