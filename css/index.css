@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0;
+  /*background-color: #111111;*/
+}
+
+#navigationBar {
+  top: 0;
+  border-radius: 0;
+  background-color: #111111;
+  color: #eeeeee;
+  height: 10vh;
+  margin-bottom: 10vh;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  font-size: 5vh;
+}
+
+#contentContainer {
+  background-color: #eeeeee;
+  height: 100vh;
+}
+
+#contactBar {
+  top: 90vh;
+  border-radius: 0;
+  background-color: #111111;
+  color: #eeeeee;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  font-size: 5vh;
+}
