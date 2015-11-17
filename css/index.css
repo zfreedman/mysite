@@ -10,10 +10,12 @@ body {
   min-height: 100vh;
   padding-top: 75px;
   color: #efefef;
+  overflow-y: auto;
 }
 
 .contentDivTitle {
   text-align: center;
+  font-size: 5vh;
 }
 
 .contentDivTitleUnderline {
@@ -27,6 +29,22 @@ body {
 /*About div*/
 #aboutDiv {
   background-color: #0a0a0a;
+}
+
+#aboutName {
+  font-size: 7vh;
+}
+
+#aboutTitle {
+  font-size: 5vh;
+}
+
+#aboutService {
+  font-size: 3vh;
+}
+
+#aboutContact {
+  font-size: 2.5vh;
 }
 
 #aboutDivUnderline {
@@ -61,7 +79,7 @@ body {
 
 #aboutDivRight .rowSplit {
   height: 10vh;
-  clear: both;
+  /*clear: both;*/
 }
 
 /*Resume div*/
