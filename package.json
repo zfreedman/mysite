@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zfreedman/mysite/issues"
   },
-  "homepage": "https://github.com/zfreedman/mysite#readme"
+  "homepage": "https://github.com/zfreedman/mysite#readme",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
 }
