@@ -38,7 +38,7 @@
             <li><a href='#resumeDiv'>Resume</a></li>
             <li><a href='#webDevDiv'>Web Dev</a></li>
             <li><a href='#gameDevDiv'>Game Dev</a></li>
-            <li><a href='#dataMiningDiv'>Data Mining</a></li>
+            <li><a href='#projectsDiv'>Projects</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -51,57 +51,64 @@
           <div id='aboutDivImage'></div>
           <div id='aboutName'>Zach Freedman</div>
           <div id='aboutTitle'>Software Engineer | San Francisco</div>
-          <div id='aboutService'>Full Stack Web and Game Development</div>
+          <div id='aboutService'>
+            Full Stack Web and Game Development
+          </div>
           <div id='aboutContact'>zfreedman92@gmail.com</div>
         </div>
         <div class='col-md-6' id='aboutDivRight'>
-          <div class='contentDivTitle'>About</div>
+          <div class='contentDivTitle' id='aboutDivTitle'>About</div>
           <div class='contentDivTitleUnderline'
             id='aboutDivUnderline'></div>
-          <div id='aboutGlyphiconFill'></div>
-          <div class='contentDivTitleUnderline'
-            id='aboutDivUnderline'></div>
+          <div id='aboutGlyphiconFill'>
+            Click below to learn more about me...
+          </div>
+
           <div class='col-xs-4'>
-            <span class="glyphicon glyphicon-globe"
-            aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-globe aboutBlueGlyph"
+              aria-hidden="true"
+              id='aboutGlobe'></span>
           </div>
           <div class='col-xs-4'>
-            <span class="glyphicon glyphicon-phone"
-            aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-phone aboutBlueGlyph"
+              aria-hidden="true"
+              id='aboutPhone'></span>
           </div>
           <div class='col-xs-4'>
-            <span class="glyphicon glyphicon-stats"
-            aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-stats aboutBlueGlyph"
+              aria-hidden="true"
+              id='aboutStats'></span>
           </div>
 
           <div class='rowSplit'></div>
 
           <div class='col-xs-4'>
-            <span class="glyphicon glyphicon-home"
-            aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-time"
+              aria-hidden="true"
+              id='aboutTime'></span>
           </div>
           <div class='col-xs-4'>
-            <span class="glyphicon glyphicon-cutlery"
-            aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-magnet"
+              aria-hidden="true"
+              id='aboutMagnet'></span>
           </div>
           <div class='col-xs-4'>
-            <span class="glyphicon glyphicon-cloud"
-            aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-briefcase"
+              aria-hidden="true"
+              id='aboutBriefcase'></span>
           </div>
-
+            
           <div class='rowSplit'></div>
 
-          <div class='col-xs-4'>
-            <span class="glyphicon glyphicon-home"
-            aria-hidden="true"></span>
+          <div class='col-xs-6'>
+            <span class="glyphicon glyphicon-fire"
+              aria-hidden="true"
+              id='aboutFire'></span>
           </div>
-          <div class='col-xs-4'>
-            <span class="glyphicon glyphicon-cutlery"
-            aria-hidden="true"></span>
-          </div>
-          <div class='col-xs-4'>
-            <span class="glyphicon glyphicon-cloud"
-            aria-hidden="true"></span>
+          <div class='col-xs-6'>
+            <span class="glyphicon glyphicon-refresh"
+              aria-hidden="true"
+              id='aboutRefresh'></span>
           </div>
 
         </div>
@@ -112,7 +119,7 @@
       </div>
       <div id='gameDevDiv' class='contentDiv'>
       </div>
-      <div id='dataMiningDiv' class='contentDiv'>
+      <div id='projectsDiv' class='contentDiv'>
       </div>
     </div>
 
@@ -122,5 +129,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src='bower_components/bootstrap/dist/js/bootstrap.js'>
     </script>
+    <!-- Index script -->
+    <script src='js/index.js'></script>
   </body>
 </html>

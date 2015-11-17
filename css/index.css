@@ -11,6 +11,7 @@ body {
   padding-top: 75px;
   color: #efefef;
   overflow-y: auto;
+  padding-bottom: 5vh;
 }
 
 .contentDivTitle {
@@ -19,11 +20,11 @@ body {
 }
 
 .contentDivTitleUnderline {
-  height: .5vh;
+  height: .25vh;
   width: 50%;
-  background-color: #efefef;
   margin: 0 auto;
   margin-bottom: 5vh;
+  margin-top: .5vh;
 }
 
 /*About div*/
@@ -47,9 +48,15 @@ body {
   font-size: 2.5vh;
 }
 
+#aboutDivTitle {
+  /*margin-top: 10vh;*/
+}
+
 #aboutDivUnderline {
+/*    background: -webkit-gradient(linear, 0 0, 100% 0, from(#0a0a0a),
+    to(#0a0a0a), color-stop(50%, #00cc66));*/
   background-color: #00cc66;
-  width: 100%;
+  width: 25%;
 }
 
 #aboutDivImage {
@@ -67,19 +74,27 @@ body {
 
 #aboutGlyphiconFill {
   height: 20vh;
+  font-size: 2.5vh;
+  text-align: left;
 }
 
 #aboutDivRight span {
   font-size: 8vh;
+  color: #00cc66;
 }
 
 #aboutDivRight span:hover {
-  color: #00cc66;
+  color: #008040;
+  cursor: pointer;
+}
+
+.aboutSpanClicked {
+  color: #004d26 !important;
 }
 
 #aboutDivRight .rowSplit {
   height: 10vh;
-  /*clear: both;*/
+  clear: both;
 }
 
 /*Resume div*/
