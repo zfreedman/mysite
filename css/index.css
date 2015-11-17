@@ -40,16 +40,16 @@ body {
   font-size: 5vh;
 }
 
+#aboutLocation {
+  font-size: 4vh;
+}
+
 #aboutService {
   font-size: 3vh;
 }
 
 #aboutContact {
   font-size: 2.5vh;
-}
-
-#aboutDivTitle {
-  /*margin-top: 10vh;*/
 }
 
 #aboutDivUnderline {
@@ -59,12 +59,16 @@ body {
   width: 25%;
 }
 
+#aboutDivLeft {
+  margin-bottom: 5vh;
+}
+
 #aboutDivImage {
   background-image: url('../img/profileImage000.png');
-  background-size: 50vh;
-  height: 50vh;
-  width: 50vh;
-  border-radius: 15%;
+  background-size: 30vh;
+  height: 30vh;
+  width: 30vh;
+  border-radius: 50%;
 }
 
 #aboutDivRight {
@@ -76,6 +80,7 @@ body {
   height: 20vh;
   font-size: 2.5vh;
   text-align: left;
+  margin-bottom: 3vh;
 }
 
 #aboutDivRight span {
