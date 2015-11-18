@@ -53,8 +53,6 @@ body {
 }
 
 #aboutDivUnderline {
-/*    background: -webkit-gradient(linear, 0 0, 100% 0, from(#0a0a0a),
-    to(#0a0a0a), color-stop(50%, #00cc66));*/
   background-color: #00cc66;
   width: 25%;
 }
@@ -104,5 +102,53 @@ body {
 
 /*Resume div*/
 #resumeDiv {
-  background-color: #666666;
+  background-color: #0a0a0a;
+}
+
+#resumeDivUnderline {
+  background-color: #ffcc00;
+  width: 25%;
+}
+
+.resumeCol {
+  text-align: center;
+}
+
+.resumeColTitle {
+  font-size: 3.5vh;
+}
+
+.resumeColIcon {
+  font-size: 7vh;
+  color: #ffcc00;
+}
+
+.resumeColTitleUnderline {
+  height: .25vh;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 2.5vh;
+  margin-top: .25vh;
+  background-color: #ffcc00;
+}
+
+.resumeColContent {
+  text-align: left;
+  padding: 0 10%;
+}
+
+.resumeColContent ul {
+  list-style: none;
+}
+
+.resumeColContent li {
+  margin-top: 5vh;
+}
+.resumeColContent li:before {
+  /*Using a Bootstrap glyphicon as the bullet point*/
+  content: '\e067';
+  font-family: 'Glyphicons Halflings';
+  float: left;
+  margin-right: 2%;
+  color: #ffcc00;
 }
