@@ -20,10 +20,10 @@ body {
 }
 
 .contentDivTitleUnderline {
-  height: .25vh;
+  height: .425vh;
   width: 50%;
   margin: 0 auto;
-  margin-bottom: 5vh;
+  margin-bottom: 2vh;
   margin-top: .5vh;
 }
 
@@ -95,9 +95,12 @@ body {
   color: #004d26 !important;
 }
 
+.rowSplit {
+  clear: both;
+}
+
 #aboutDivRight .rowSplit {
   height: 10vh;
-  clear: both;
 }
 
 /*Resume div*/
@@ -112,9 +115,11 @@ body {
 
 .resumeCol {
   text-align: center;
+  margin-bottom: 5vh;
 }
 
 .resumeColTitle {
+  margin-top: 2vh;
   font-size: 3.5vh;
 }
 
@@ -142,13 +147,59 @@ body {
 }
 
 .resumeColContent li {
-  margin-top: 5vh;
+  display: table-row;
 }
 .resumeColContent li:before {
   /*Using a Bootstrap glyphicon as the bullet point*/
-  content: '\e067';
+  content: '\e233';
   font-family: 'Glyphicons Halflings';
-  float: left;
-  margin-right: 2%;
+  padding-right: 5%;
+  padding-top: 2.5%;
   color: #ffcc00;
+  display: table-cell;
+  text-align: right;
+}
+.resumeColContent li:after {
+}
+
+.resumeColContent a,
+.resumeColContent a:visited {
+  color: #ffcc00;
+}
+
+.resumeSkillSection {
+  text-align: center;
+}
+
+.resumeSkillHeader {
+  font-size: 2.5vh;
+  margin-bottom: 1vh;
+}
+
+.resumeSkillImage img{
+  height: 100%;
+  width: 100%;
+  background-color: #efefef;
+  border-radius: 5px;
+  border: 2px solid #ffcc00;
+}
+
+.resumeSkillTitle {
+  /*font-size: 2vh;*/
+  font-size: 100%;
+  color: #ffcc00;
+}
+
+#resumeDiv .rowSplit {
+  height: 1vh;
+}
+
+#webDevDivUnderline {
+  background-color: #33ccff;
+  width: 25%;
+}
+
+#gameDevDivUnderline {
+  background-color: #ff0066;
+  width: 25%;
 }

@@ -10,7 +10,7 @@ $(document).ready(function () {
     'aboutGlobe': 'I use Node.js to create RESTful web ' +
       'servers, and Socket.IO to deliver live updating and ' +
       'responsive front end UIs. Optimizing server storage and ' +
-      'communication capabilities is a passion of mine.',
+      'communication capabilities are passions of mine.',
     // Phone icon
     'aboutPhone': 'To create scalable mobile web applications I ' +
       'use a combination of Bootstrap, jQuery, and CSS magic. ' +
@@ -30,7 +30,7 @@ $(document).ready(function () {
     'aboutTime': 'I engineer fast and efficient fullstack ' +
       'architecture to serve whatever purposes necessary. I learn ' +
       'new tech and concepts quickly, which allows me to ' +
-      'contribute as software developer on many teams.',
+      'contribute as software developer on various fronts.',
     // Briefcase icon
     'aboutBriefcase': 'Professionalism is key for an ' +
       'application\'s growth. For me, this means scalable and ' +
@@ -45,7 +45,7 @@ $(document).ready(function () {
       'their friends.',
     // Refresh icon
     'aboutRefresh': 'I\'m a huge advocate of communicative and ' +
-      'responsive development. As such, it\'s pivotal for me to ' +
+      'responsive development. It\'s pivotal for me to ' +
       'construct swift backend data emissions and a front ' +
       'end UX that is lively and reactive to user input and ' +
       'navigation.'
