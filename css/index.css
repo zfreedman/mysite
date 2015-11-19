@@ -151,7 +151,6 @@ body {
 }
 .resumeColContent li:before {
   /*Using a Bootstrap glyphicon as the bullet point*/
-  content: '\e233';
   font-family: 'Glyphicons Halflings';
   padding-right: 5%;
   padding-top: 2.5%;
@@ -160,6 +159,14 @@ body {
   text-align: right;
 }
 .resumeColContent li:after {
+}
+
+#educationList li:before {
+  content: '\e233';
+}
+
+#experienceList li:before {
+  content: '\e067';
 }
 
 .resumeColContent a,
