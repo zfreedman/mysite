@@ -279,3 +279,62 @@ body {
   background-color: #ff0066;
   width: 25%;
 }
+
+.gameColContent {
+  text-align: center;
+  height: 70vh;
+}
+
+.gameColTitle {
+  font-size: 4vh;
+  height: 6vh;
+  color: #efefef;
+}
+
+.gameColUnderline {
+  height: .25vh;
+  background-color: #ff0066;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.gameColContent:hover .gameColTitle {
+  color: #ff0066;
+}
+
+.gameColInfo {
+  font-size: 2vh;
+  margin-top: 1vh;
+  font-style: italic;
+  text-align: center;
+  height: 2vh;
+}
+
+.gameColImage img {
+  max-height: 15vh;
+  margin-top: 4vh;
+  border: 2px solid #ff0066;
+  border-radius: 3px;
+}
+
+.gameColImageTall img {
+  max-height: 30vh;
+  margin-top: 4vh;
+  border: 2px solid #ff0066;
+  border-radius: 3px;
+}
+
+/*.gameColImgWide {
+  height: 50%;
+  width: 100%;
+  margin-top: 2vh;
+  border: 2px solid #ff0066;
+  border-radius: 3px;
+}*/
+
+/*.gameColImgTall {
+  height: 36vh;
+  margin-top: 2vh;
+  border: 2px solid #ff0066;
+  border-radius: 3px;
+}*/
