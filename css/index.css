@@ -354,6 +354,11 @@ body {
   margin-bottom: 1vh;
 }
 
+#contactDivMessage {
+  font-size: 2vh;
+  text-align: center;
+}
+
 #contactDivEmail {
   font-size: 3vh;
   text-align: center;
